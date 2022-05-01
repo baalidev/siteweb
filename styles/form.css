@@ -1,0 +1,96 @@
+.logo a {
+    top : 0px;
+}
+.alert > p{
+    margin-bottom: 0rem !important;
+}
+.custom-alert {
+    display: none;
+}
+/*----------------------contact----------------------*/
+#contact {
+    background-color: #000;
+    color: whitesmoke;
+    width: 100%;
+    
+}
+#contact > .container-from-card {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*---------- form style ----------*/
+.container-fuild  #container-form  {  width: 50%;}
+#contact #contact-paragraph {
+    font-size: 1.2em;
+    line-height: 2.3rem;
+    word-wrap: break-word;
+}
+.container-fuild form  label{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    display: block;
+}
+.container-fuild form > .btn-group input,
+.container-fuild form > .btn-group a {
+    border: 1px solid #ffd700 !important;
+    color: #ffd700 !important;
+}
+.container-fuild form > input, .container-fuild form  textarea  {
+    width: 100%;
+    text-align: start;
+    height: 45px;
+    outline: none;
+    margin: 1rem 0;
+    transition: ease-in-out .25s;
+    color: whitesmoke;
+    border: 1px solid #ffd700 ;
+    letter-spacing: 1.2px;
+}
+[id="msg"] {border-radius: 15px !important}
+.container-fuild form > input:hover, 
+.container-fuild form  textarea:hover  
+{   background-color: transparent;
+color: white;}
+.container-fuild form  textarea {    height: 150px;}
+
+/*----------- card style------- */
+#contact .container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    align-self: flex-start;
+}
+#contact .container-card .card-info {
+    border-bottom: 4px solid #ffd700;
+    height: 200px;
+    width: 400px;
+    margin: 15px 0;
+    border-radius: 4px;
+    color: whitesmoke;
+	background: #ffffff0d;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+#contact .container-card .card-info p {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin: 4px 0;
+}
+#contact .container-card .card-info a { 
+    color :whitesmoke;
+    letter-spacing: 1.2px;
+}
+#contact .container-card .card-info .hr {
+    color: #1d1d1d;
+    border: 1px solid ;
+    width: 30%;
+    margin: 8px
+}
+.card-info i {   color: #ffd700;}
